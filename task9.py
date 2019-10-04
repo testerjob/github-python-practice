@@ -7,7 +7,7 @@ DONE: Keep the game going until the user types “exit”
 NEED to finish: Keep track of how many guesses the user has taken, and when the game ends, print this out.'''
 
 
-#Task9.1_________________________________________________________________________________
+#Task9.1_-DONE____/9.2_-DONE___/9.3 not finished____________________________________________________________________
 
 import random
 
