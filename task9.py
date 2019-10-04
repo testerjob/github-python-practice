@@ -4,7 +4,7 @@ then tell them whether they guessed too low, too high, or exactly right. (Hint: 
 Extras:
 
 DONE: Keep the game going until the user types “exit”
-Keep track of how many guesses the user has taken, and when the game ends, print this out.'''
+NEED to finish: Keep track of how many guesses the user has taken, and when the game ends, print this out.'''
 
 
 #Task9.1_________________________________________________________________________________
