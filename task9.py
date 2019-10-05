@@ -1,20 +1,12 @@
-'''9.1 -- DONE  Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number, 
-then tell them whether they guessed too low, too high, or exactly right. (Hint: remember to use the user input lessons from the very first exercise)
+'''
+9.1 -- DONE  Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number,
+then tell them whether they guessed too low, too high, or exactly right.
 
 EXTRAS:
-
-<<<<<<< HEAD
 9.2 -- DONE: Keep the game going until the user types “exit”
 9.3 -- DONE: Keep track of how many guesses the user has taken, and when the game ends, print this out.'''
 
 #-------------------------------------------------------------------------------------------------------------------------------
-=======
-DONE: Keep the game going until the user types “exit”
-NEED to finish: Keep track of how many guesses the user has taken, and when the game ends, print this out.'''
-
-
-#Task9.1_-DONE____/9.2_-DONE___/9.3 not finished____________________________________________________________________
->>>>>>> 462a80b5b6ae3f3b8b753b955596f53b37d1e796
 
 import random
 
@@ -57,15 +49,9 @@ while True:
 
 if guess == number:
 	print("Congradulation, you are correct, the number is " + str(number))
-<<<<<<< HEAD
 
 
 
 
 
 
-
-
-
-=======
->>>>>>> 462a80b5b6ae3f3b8b753b955596f53b37d1e796
