@@ -1,13 +1,12 @@
-'''1.DONE  Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number, 
+'''9.1 -- DONE  Generate a random number between 1 and 9 (including 1 and 9). Ask the user to guess the number, 
 then tell them whether they guessed too low, too high, or exactly right. (Hint: remember to use the user input lessons from the very first exercise)
 
 Extras:
 
-DONE: Keep the game going until the user types “exit”
-Keep track of how many guesses the user has taken, and when the game ends, print this out.'''
+9.2 -- DONE: Keep the game going until the user types “exit”
+9.3 -- DONE: Keep track of how many guesses the user has taken, and when the game ends, print this out.'''
 
-
-#Task9.1_________________________________________________________________________________
+#-------------------------------------------------------------------------------------------------------------------------------
 
 import random
 
@@ -19,29 +18,45 @@ not_in = [1,2,3,4,5,6,7,8,9]
 
 guess_str = guess.isalpha() 
 
+
+count = 0
 while True:
+	
+	
 	guess=guess.lower()
 
 	if guess == 'exit':
-		print("Thank you for the game. Bye! ")
+		print("\nThank you for the game. Bye!\n ")
 		exit()
 		
 	guess = int(guess)
 
-	if guess not in not_in: #and guess not in guess_str:
+	if guess not in not_in: 
 		print("Please check your entry. It should be only the number 1 to 9: ")
-		guess = input("Hi, guess a number from 1 to 9: ")
-
+		guess = input("\nHi, guess a number from 1 to 9: ")
+		
 	elif guess > number:
 		print("Your gues is higher than a number. Try again and Enter a new number:  ")
-		guess = input("Hi, guess a number from 1 to 9: ")
-
+		guess = input("\nHi, guess a number from 1 to 9: ")
+		
 	elif guess < number:
 		print("Your gues is low than a number. Try again and Enter a new number:  ")
-		guess = input("Hi, guess a number from 1 to 9: ")
-
+		guess = input("\nHi, guess a number from 1 to 9: ")
+		
 	else:
 		break
 
+	count +=1	
+	print("\nThis is your " + str(count) + " attempt.\n" )
+
 if guess == number:
 	print("Congradulation, you are correct, the number is " + str(number))
+
+
+
+
+
+
+
+
+
