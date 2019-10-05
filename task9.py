@@ -3,10 +3,18 @@ then tell them whether they guessed too low, too high, or exactly right. (Hint: 
 
 EXTRAS:
 
+<<<<<<< HEAD
 9.2 -- DONE: Keep the game going until the user types “exit”
 9.3 -- DONE: Keep track of how many guesses the user has taken, and when the game ends, print this out.'''
 
 #-------------------------------------------------------------------------------------------------------------------------------
+=======
+DONE: Keep the game going until the user types “exit”
+NEED to finish: Keep track of how many guesses the user has taken, and when the game ends, print this out.'''
+
+
+#Task9.1_-DONE____/9.2_-DONE___/9.3 not finished____________________________________________________________________
+>>>>>>> 462a80b5b6ae3f3b8b753b955596f53b37d1e796
 
 import random
 
@@ -49,6 +57,7 @@ while True:
 
 if guess == number:
 	print("Congradulation, you are correct, the number is " + str(number))
+<<<<<<< HEAD
 
 
 
@@ -58,3 +67,5 @@ if guess == number:
 
 
 
+=======
+>>>>>>> 462a80b5b6ae3f3b8b753b955596f53b37d1e796
